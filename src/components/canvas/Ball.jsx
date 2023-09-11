@@ -12,16 +12,16 @@ const Ball = (props) => {
       <mesh castShadow receiveShadow scale={2.75}>
         <icosahedronGeometry args={[1,1]}/>
         <meshStandardMaterial color='#fff8eb'  polygonOffset polygonOffsetFactor={-5} flatShading/>
-      
        <Decal position={[0, 0, 1]} rotation={[2* Math.PI, 0, 6.25]} map={decal}/>
       </mesh>
     </Float>
   )
 }
 
-const BallCanvas = ({ icon }) =>{
+const BallCanvas = ({ icon, name }) =>{
   return (
-    <Canvas
+    <div className='ball-canvas-container'>
+      <Canvas
     frameloop='demand'
     dpr={[1, 2]}
     gl={{ preserveDrawingBuffer: true }}
@@ -29,10 +29,14 @@ const BallCanvas = ({ icon }) =>{
     <Suspense fallback={<CanvasLoader />}>
       <OrbitControls enableZoom={false} />
       <Ball imgUrl={icon} />
+      
     </Suspense>
 
     <Preload all />
   </Canvas>
+
+  <div className='tech-name'>{name}</div>
+    </div>
   )
 }
 

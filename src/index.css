@@ -13,6 +13,28 @@
   color-scheme: dark;
 }
 
+.ball-canvas-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  margin-bottom: 40px; /* Add spacing between the name and canvas */
+
+}
+
+.tech-name {
+  font-size: 15px; /* Adjust the font size as needed */
+  margin-top: -15px; /* Add spacing between the name and canvas */
+  color: black;
+  font-style: italic;
+  border-radius: 15%;
+  border-width: 2px;
+  border-color: rgb(36, 32, 66);
+  background-color: rgb(108, 105, 105);
+  align-items: center;
+  justify-content: center;
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;

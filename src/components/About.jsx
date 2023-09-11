@@ -13,7 +13,7 @@ const ServiceCard = ({title, index, icon}) => (
           max:45,
           scale:1,
           speed:450,
-        }} className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flexx justify-evenly items-center flex-col'>
+        }} className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'>
          <img src={icon} alt={title} className='w-16 h-16 object-contain'/>
          <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
         </div>
@@ -29,10 +29,9 @@ const About = () => {
       <h2 className={styles.sectionHeadText}>Overview.</h2>
     </motion.div>
     <motion.p variants={fadeIn("","", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-    This is Shilpa Bhati and I am graduated from IIT Guwahati in year 2022. 
-    I have 7 months experience as software development engineer. 
-    I have professional experience with Javascript, Typescript, Shell script, Docker, Jenkins and AWS.
-    I have created some personal projects using backend and frontend technologies. I am more comfortable with React.Js and other Javascript frameworks. I have started learning about Java and related frameworks to upskilling myself. I have good knowledge of RESTful APIs too. I am looking for job opportunities in SDE profiles. I have knowledge of JavaScript and it's framework. I want to learn and explore more with these technologies. I am looking for better guidance and supportive team where I can contribute and learn new technologies
+    I'm Shilpa Bhati, a passionate software developer with a degree from IIT Guwahati (Class of 2022) and 7 months of professional experience as a Software Development Engineer. My expertise spans a range of technologies, including JavaScript, TypeScript, C/C++, Shell scripting, Docker and Jenkins.<br/>
+    I thrive on both backend and frontend development, with React JS, Node JS, Express JS, RESTful APIs being my forte. I also have a strong grasp of MongoDB and MySQL.<br/>
+    Currently, I'm actively seeking opportunities in software development engineering roles. I'm eager to expand my knowledge and skills. I'm looking for a supportive team and environment where I can contribute, learn, and explore new technologies.
     </motion.p>
 
     <div className='mt-20 flex flex-wrap gap-10'>{services.map((service, index) => (<ServiceCard key={service.title} index={index} {...service}/>))}</div>

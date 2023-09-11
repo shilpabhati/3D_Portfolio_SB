@@ -43,7 +43,7 @@ const handleSubmit =(e) => {
     alert('Somthing went wrong.')
   })
 
-  //service_wmesl5m  template_tfk92ky  D61m93hKldH3LgWYt
+
 }
 
   return (
@@ -79,6 +79,5 @@ const handleSubmit =(e) => {
   )
 }
 
-//export default Contact;
 export default SectionWrapper(Contact, "contact");
 

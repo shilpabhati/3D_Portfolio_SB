@@ -19,10 +19,11 @@ import {
     safesecurity,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    fooddelivery,
+    portal,
     threejs,
+    todolist,
+    jenkins,
   } from "../assets";
   
   export const navLinks = [
@@ -100,6 +101,10 @@ import {
       name: "docker",
       icon: docker,
     },
+    {
+      name: "Jenkins",
+      icon: jenkins
+    }
   ];
   
   const experiences = [
@@ -148,67 +153,80 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      name: "Online Food Delivery",
+      description:[
+        " Developed a web application for online food ordering by using React.js, Node.js, MongoDB and Express.js.",
+        " Implemented features such as a robust search functionality for food items and categories, allowing users to easily find desired items. Developed an intuitive cart system that enables users to add items with their desired quantities for seamless ordering.",
+        " Implemented a comprehensive order history feature to track and maintain records of all orders placed to date.",
+      ],
+        
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
+          name: "Node JS",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
-          color: "pink-text-gradient",
+          name: "React JS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Express JS",
+          color: "yellow-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: fooddelivery,
+      source_code_link: "https://github.com/shilpabhati/GoFood_Project",
     },
     {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
+      name: "ToDo List",
+      description:[
+        " Created a web-based Todo List application using React JS.",
+        " Listed the main features of the Todo List app, such as adding, editing, and deleting tasks.",
+        " Delivered a user-friendly and responsive interface that simplifies task handling while maintaining task data integrity.",
+      ],
+        tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "HTML5",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: todolist,
+      source_code_link: "https://github.com/shilpabhati/ToDo_List",
     },
     {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
+      name: "Placement Portal",
+      description:[
+        " Developed a server application using technologies NodeJS, Express.js, RestAPIs, MongoDB.",
+        " Implemented backend part of placement portal of a college with student and company login and registration and registering/deregistering a student from a company."
+      ],
+        tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "Node JS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
-          color: "pink-text-gradient",
+          name: "Express.js",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "green-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: portal,
+      source_code_link: "https://github.com/shilpabhati/Placement-Portal",
     },
   ];
   

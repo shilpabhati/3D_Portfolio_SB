@@ -24,7 +24,7 @@
 
 .tech-name {
   font-size: 15px; /* Adjust the font size as needed */
-  margin-top: -15px; /* Add spacing between the name and canvas */
+  margin-top: 0px; /* Add spacing between the name and canvas */
   color: black;
   font-style: italic;
   border-radius: 15%;

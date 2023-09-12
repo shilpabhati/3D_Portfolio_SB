@@ -29,7 +29,7 @@ const About = () => {
       <h2 className={styles.sectionHeadText}>Overview.</h2>
     </motion.div>
     <motion.p variants={fadeIn("","", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-    I'm Shilpa Bhati, a passionate software developer with a degree from IIT Guwahati (Class of 2022) and 7 months of professional experience as a Software Development Engineer. My expertise spans a range of technologies, including JavaScript, TypeScript, C/C++, Shell scripting, Docker and Jenkins.<br/>
+    I'm Shilpa Bhati, a passionate software developer, graduated from IIT Guwahati (Class of 2022) and 7 months of professional experience as a Software Development Engineer. My expertise spans a range of technologies, including JavaScript, TypeScript, C/C++, Shell scripting, Docker and Jenkins.<br/>
     I thrive on both backend and frontend development, with React JS, Node JS, Express JS, RESTful APIs being my forte. I also have a strong grasp of MongoDB and MySQL.<br/>
     Currently, I'm actively seeking opportunities in software development engineering roles. I'm eager to expand my knowledge and skills. I'm looking for a supportive team and environment where I can contribute, learn, and explore new technologies.
     </motion.p>

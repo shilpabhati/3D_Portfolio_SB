@@ -12,8 +12,8 @@ const Navbar = () => {
     <nav className={`${styles.paddingX} w-full flex-item-center top-0 py-5 fixed z-20 bg-primary `}>
       <div className='w-full flex justify-between item-center max-w-7xl mx-auto'>
         <Link to='/' className='flex item-center gap-2' onClick={() => { setActive(""); window.scroll(0, 0) }}>
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer'>Shilpa Bhati</p>
+          <img src={logo} alt='logo' className='w-13 h-12 object-contain' />
+          <p className='text-white text-[18px] font-bold cursor-pointer'>Shilpa Bhati<br/> <p className='text-secondary text-[14px]'>| shilpabhati2001@gmail.com<br/>| +91 7340025301</p></p>
         </Link>
         <ul className='list-non hidden sm:flex flex-row gap-10'>
           {navLinks.map((link) => (

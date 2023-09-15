@@ -117,7 +117,7 @@ import {
       company_name: "Safe Security",
       icon: safesecurity,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "June 2022 - December 2022",
       points: [
         "1. Demonstrated expertise in Shell Scripting, Bash, JavaScript and TypeScript, utilizing these languages to develop robust and scalable software solutions.", 
         "2. Utilized software tools such as Docker, Jenkins, and Git to streamline development processes, improve collaboration, and ensure version control and code integrity.",
